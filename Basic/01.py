@@ -1,0 +1,7 @@
+print("First program - python print function")
+print("it is declare like this: ")
+print("'what a print'")
+print("\'what a print\'")
+print("\"Python is easy to learn\"")
+print("This is my second line")
+print("\'Practice makes perfect\'")
