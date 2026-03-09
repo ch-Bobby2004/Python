@@ -1,7 +1,7 @@
 # Using parentheses
 my_tuple = (1, 2, 3, 4,5,4)
 print(my_tuple)  # (1, 2, 3, 4)
-print(min(my_tuple))  #if mixed data type  like str then get error
+print(min(my_tuple))  
 print(my_tuple.count(4))
 print(my_tuple.index(4))
 

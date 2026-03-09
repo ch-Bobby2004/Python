@@ -25,6 +25,7 @@ B = {3, 4, 5}
 # Union
 # Combine elements from both sets.
 print(A | B)
+# c = A.union(B)
 # Intersection
 # Common elements.
 print(A & B)
