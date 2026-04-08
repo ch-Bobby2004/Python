@@ -1,0 +1,28 @@
+Python List
+my_list = [1, 2, 3, 4]
+
+Characteristics:
+
+Can hold mixed data types: [1, 'hello', 3.5] is fine.
+Built-in Python type → slow for large numerical computations.
+Supports basic operations like append(), extend().
+Arithmetic operations are not element-wise:
+my_list + my_list  # [1,2,3,4,1,2,3,4]  (concatenation, not addition)
+my_list * 2        # [1,2,3,4,1,2,3,4]  (repeats the list)
+
+
+
+ NumPy Array
+import numpy as np
+arr = np.array([1, 2, 3, 4])
+
+Characteristics:
+
+Can hold only one data type per array (all int, all float, etc.).
+Optimized for numerical computation → much faster than lists for math.
+Supports element-wise operations:
+arr + arr  # array([2, 4, 6, 8])
+arr * 2    # array([2, 4, 6, 8])
+arr / 2    # array([0.5, 1.0, 1.5, 2.0])
+Supports matrix operations, broadcasting, and vectorized computations.
+Provides many built-in functions: sum(), mean(), reshape(), etc.
