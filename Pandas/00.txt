@@ -1,0 +1,32 @@
+Pandas is a popular Python library used for data analysis and manipulation.
+
+Think of it like a powerful tool for working with tables (similar to Excel or SQL), but inside Python.
+
+It helps you load, clean, analyze, and manipulate data
+Works especially well with structured data (rows and columns)
+
+Main data structures:
+Series → a single column (like a list)
+DataFrame → a full table (rows + columns)
+
+
+What you can do with Pandas:
+Read data from files (CSV, Excel, JSON)
+Filter and sort data
+Handle missing values
+Perform calculations and statistics
+Group and summarize data
+In simple terms:
+
+Pandas = Excel-like data handling + Python power
+
+
+
+# A .csv file stands for Comma-Separated Values file. It’s a simple format used to store tabular data (like a spreadsheet or table).
+# Key features:
+# Very simple and lightweight
+# Can be opened in:
+# Excel
+# Notepad
+# Google Sheets
+# Widely used for data exchange
